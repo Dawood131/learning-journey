@@ -1,0 +1,82 @@
+🌍 Initial Setup
+git config --global user.name "Your Name"        # Set your Git username
+git config --global user.email "your@email.com"  # Set your Git email
+git config --list                                # Show all Git configurations
+
+📂 Create or Copy Repository
+git init                       # Create a new Git repository in current folder
+git clone <repo-url>           # Clone (download) a repo from remote
+git clone <repo-url> my-folder # Clone repo into specific folder
+
+📌 Basic Workflow
+git status                            # Show repo status (staged/unstaged/untracked)
+git add <file>                        # Stage a specific file
+git add .                             # Stage all files in current folder
+git commit -m "message"               # Commit staged changes with a message
+git commit -am "message"              # Stage + commit tracked files in one step
+git log                               # Show commit history
+git log --oneline --graph --all       # Pretty commit history with branches
+
+🔄 Branching & Merging
+git branch                            # List all branches
+git branch <branch>                   # Create new branch
+git checkout <branch>                  # Switch to branch
+git checkout -b <branch>              # Create + switch to branch
+git merge <branch>                    # Merge a branch into current branch
+git branch -d <branch>                # Delete branch safely
+git branch -D <branch>                # Force delete branch
+
+🌐 Remote Repositories
+git remote -v                         # Show remotes
+git remote add origin <url>           # Add new remote named origin
+git push origin <branch>              # Push branch to remote
+git push -u origin <branch>           # Push branch + set tracking
+git push                              # Push to default remote
+git pull                              # Fetch + merge changes from remote
+git fetch                             # Fetch changes without merge
+
+🛠 Undo & Recovery
+git reset <file>                      # Unstage a file
+git reset --soft <commit>             # Reset HEAD but keep staged changes
+git reset --mixed <commit>            # Reset HEAD + unstage changes
+git reset --hard <commit>             # Reset HEAD + discard changes
+git revert <commit>                   # Create a commit that undoes changes
+git checkout -- <file>                 # Discard local changes to file
+
+🔍 Inspection & Comparison
+git diff                              # Show unstaged changes
+git diff --staged                     # Show staged changes
+git show <commit>                     # Show details of a commit
+git blame <file>                      # Show who changed each line
+
+📦 Stashing
+git stash                             # Save uncommitted changes temporarily
+git stash list                        # Show list of stashes
+git stash pop                         # Apply + remove last stash
+git stash apply                       # Apply last stash but keep it
+git stash drop                        # Delete a stash
+
+🧹 Clean Up
+git clean -n                          # Show untracked files to remove
+git clean -f                          # Remove untracked files
+git clean -df                         # Remove untracked files + directories
+
+🚀 Tags
+git tag                               # Show all tags
+git tag <name>                        # Create lightweight tag
+git tag -a <name> -m "msg"            # Create annotated tag
+git push origin <tag>                 # Push single tag to remote
+git push origin --tags                # Push all tags to remote
+
+✅ Most Important Daily Use Commands (Highlight)
+
+git init                 # Start repo
+git clone <url>          # Copy repo
+git status               # Check status
+git add .                # Stage all files
+git commit -m "msg"      # Commit changes
+git push                 # Push to remote
+git pull                 # Update from remote
+git branch               # List branches
+git checkout -b <branch> # Create & switch branch
+git merge <branch>       # Merge branch

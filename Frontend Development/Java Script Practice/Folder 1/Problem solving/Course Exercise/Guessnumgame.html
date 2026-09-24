@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess Game</title>
+</head>
+
+<body>
+    <script>
+        let num = Math.floor(1 + Math.random() * 10);
+        let pro;
+
+        while (true) {
+            pro = prompt("Guess the number between 1 and 10");
+
+            if (pro === null) {
+                alert("Game exited!");
+                break;
+            }
+
+            pro = Number(pro);
+
+            if (pro === num) {
+                alert("🎉 You won the Game!");
+                break;
+            } else {
+                alert("❌ Wrong guess! Try again...");
+            }
+        }
+    </script>
+</body>
+
+</html>

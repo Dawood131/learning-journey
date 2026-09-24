@@ -1,0 +1,134 @@
+🔹 Beginner (1–10)
+
+Reverse a string.
+
+Check if a string is a palindrome.
+
+Find factorial of a number.
+
+Find the largest number in an array.
+
+Find the smallest number in an array.
+
+Count vowels in a string.
+
+Find the sum of array elements.
+
+Find the average of array elements.
+
+Print Fibonacci series up to n.
+
+Find the length of the longest word in a string.
+
+🔹 Intermediate (11–20)
+
+Remove duplicates from an array.
+
+Find the second largest number in an array.
+
+Find the missing number in a sequence [1…n].
+
+Check if two strings are anagrams.
+
+Count occurrence of each character in a string.
+
+Find the intersection of two arrays.
+
+Reverse words in a sentence.
+
+Find the first non-repeated character in a string.
+
+Check if an array is sorted or not.
+
+Rotate an array by k positions.
+
+🔹 Advanced (21–30)
+
+Flatten a nested array (infinity depth).
+
+Implement a debounce function.
+
+Implement a throttle function.
+
+Write a function to deep clone an object.
+
+Find all pairs in an array whose sum is equal to a target.
+
+Implement binary search.
+
+Find the maximum sum of a subarray (Kadane’s Algorithm).
+
+Implement a function to shuffle an array randomly.
+
+Find longest substring without repeating characters.
+
+Implement memoization for factorial/fibonacci.
+
+
+DOM
+
+🔹 Level 1: Easy (Basics)
+
+Ek button banao jo click hone par ek paragraph ka text change kare.
+
+Ek button banao jo click hone par alert box show kare.
+
+Ek input aur button banao → button click hone par input ka value alert me show ho.
+
+Ek paragraph banao → button click hone par uska color change ho jaye.
+
+Ek image aur button banao → button click hone par image change ho jaye.
+
+Ek button banao jo click hone par background color change kar de.
+
+Ek paragraph banao → button click hone par uska font size bada ho jaye.
+
+Ek paragraph banao → button click hone par uska text uppercase ho jaye.
+
+Ek button banao jo click hone par ek paragraph ko hide aur dobara click par show kare.
+
+Ek button banao jo click hone par random background color set kare.
+
+🔹 Level 2: Medium (Lists & Counters)
+
+Ek counter banao jisme + button par number increase ho aur - button par decrease ho.
+
+Ek button banao jo click hone par ek new paragraph add kare page me.
+
+Ek ul list aur button banao → button click hone par new list item add ho jaye.
+
+Ek input aur button banao → button click hone par input ka text list me add ho.
+
+Ek todo list banao jisme task add ho aur delete karne ka option ho.
+
+Ek image banao → button click hone par uski width aur height change ho jaye.
+
+Ek image gallery banao → "Next" button click hone par next image aur "Prev" button click hone par pichli image dikhaye.
+
+Ek form banao jisme user name aur email likhe → submit hone par values console me print ho.
+
+Ek simple calculator banao (2 inputs + add button → result show).
+
+Ek paragraph banao → button click hone par uska background highlight (yellow) ho jaye.
+
+🔹 Level 3: Advanced (Events & Dynamic)
+
+Ek timer banao → button click hone par timer start ho aur seconds increase hote rahe.
+
+Ek button banao jo click hone par random quote show kare (quotes array se).
+
+Ek search box banao → user jo likhe us hisaab se list filter ho.
+
+Ek button banao jo click hone par ek modal (popup) open kare aur close button par band ho jaye.
+
+Ek dropdown banao → value select karne par paragraph me show ho.
+
+Ek form banao jisme password field ho → button click hone par password show/hide ho.
+
+Ek progress bar banao jo button click hone par dheere dheere fill ho.
+
+Ek dark/light mode toggle button banao.
+
+Ek keyboard event banao → jab koi key press ho to uska naam screen par show ho.
+
+Ek image slider banao jo automatically images change kare har 3 second me.

@@ -1,0 +1,185 @@
+1. Button → Click hone par paragraph ka text change kare
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Text</title>
+</head>
+<body>
+  <p id="para1">Yeh original text hai.</p>
+  <button onclick="changeText()">Change Text</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("para1").innerText = "Text change ho gaya!";
+    }
+  </script>
+</body>
+</html>
+
+2. Button → Click hone par alert box show kare
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alert Example</title>
+</head>
+<body>
+  <button onclick="showAlert()">Show Alert</button>
+
+  <script>
+    function showAlert() {
+      alert("Hello! Button click hua.");
+    }
+  </script>
+</body>
+</html>
+
+3. Input + Button → Input ka value alert me show ho
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Value Alert</title>
+</head>
+<body>
+  <input type="text" id="myInput" placeholder="Kuch likho...">
+  <button onclick="showInput()">Show Value</button>
+
+  <script>
+    function showInput() {
+      let value = document.getElementById("myInput").value;
+      alert("Input value: " + value);
+    }
+  </script>
+</body>
+</html>
+
+4. Paragraph → Button click hone par uska color change ho jaye
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Color</title>
+</head>
+<body>
+  <p id="para2">Mera color change hoga.</p>
+  <button onclick="changeColor()">Change Color</button>
+
+  <script>
+    function changeColor() {
+      document.getElementById("para2").style.color = "red";
+    }
+  </script>
+</body>
+</html>
+
+5. Image + Button → Button click hone par image change ho jaye
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Image</title>
+</head>
+<body>
+  <img id="myImage" src="https://via.placeholder.com/150" width="150">
+  <br><br>
+  <button onclick="changeImage()">Change Image</button>
+
+  <script>
+    function changeImage() {
+      document.getElementById("myImage").src = "https://via.placeholder.com/200";
+    }
+  </script>
+</body>
+</html>
+
+6. Button → Click hone par background color change kar de
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Change</title>
+</head>
+<body>
+  <button onclick="changeBackground()">Change Background</button>
+
+  <script>
+    function changeBackground() {
+      document.body.style.background = "lightblue";
+    }
+  </script>
+</body>
+</html>
+
+7. Paragraph → Button click hone par font size bada ho jaye
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Font Size</title>
+</head>
+<body>
+  <p id="para3">Meri font size badhegi.</p>
+  <button onclick="increaseFont()">Increase Font</button>
+
+  <script>
+    function increaseFont() {
+      document.getElementById("para3").style.fontSize = "30px";
+    }
+  </script>
+</body>
+</html>
+
+8. Paragraph → Button click hone par text uppercase ho jaye
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Uppercase</title>
+</head>
+<body>
+  <p id="para4">Mujhe uppercase me badlo.</p>
+  <button onclick="makeUppercase()">Uppercase</button>
+
+  <script>
+    function makeUppercase() {
+      document.getElementById("para4").style.textTransform = "uppercase";
+    }
+  </script>
+</body>
+</html>
+
+9. Button → Click hone par paragraph hide/show kare
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hide Show</title>
+</head>
+<body>
+  <p id="para5">Main hide/show ho sakta hun.</p>
+  <button onclick="toggleParagraph()">Hide/Show</button>
+
+  <script>
+    function toggleParagraph() {
+      let para = document.getElementById("para5");
+      if (para.style.display === "none") {
+        para.style.display = "block";
+      } else {
+        para.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>
+
+10. Button → Random background color set kare
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Background</title>
+</head>
+<body>
+  <button onclick="randomBackground()">Random Background</button>
+
+  <script>
+    function randomBackground() {
+      let colors = ["red", "blue", "green", "yellow", "pink", "orange", "purple"];
+      let random = colors[Math.floor(Math.random() * colors.length)];
+      document.body.style.background = random;
+    }
+  </script>
+</body>
+</html>

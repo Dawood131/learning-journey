@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+        }
+
+        /* From Uiverse.io by SupportHotline */
+        button {
+            background: var(--color-back);
+            border-radius: 0.5em;
+            box-shadow:
+                inset 0px -6px 18px -6px rgba(3, 15, 20, 0),
+                inset rgba(54, 69, 75, 1) -1px -1px 6px 0px,
+                inset 12px 0px 12px -6px rgba(3, 15, 20, 0),
+                inset -12px 0px 12px -6px rgba(3, 15, 20, 0),
+                rgba(54, 69, 75, 1) -1px -1px 6px 0px;
+            border: solid 2px #030f14;
+            cursor: pointer;
+            font-size: 18px;
+            padding: 0.7em 1.7em;
+            outline: none;
+            transition: all 0.3s;
+            user-select: none;
+        }
+
+        button:hover {
+            box-shadow:
+                inset 0px -6px 18px -6px rgba(3, 15, 20, 1),
+                inset 0px 6px 18px -6px rgba(3, 15, 20, 1),
+                inset 12px 0px 12px -6px rgba(3, 15, 20, 0),
+                inset -12px 0px 12px -6px rgba(3, 15, 20, 0),
+                -1px -1px 6px 0px rgba(54, 69, 75, 1);
+        }
+
+        button:active {
+            box-shadow:
+                inset 0px -12px 12px -6px rgba(3, 15, 20, 1),
+                inset 0px 12px 12px -6px rgba(3, 15, 20, 1),
+                inset 12px 0px 12px -6px rgba(3, 15, 20, 1),
+                inset -12px 0px 12px -6px rgba(3, 15, 20, 1),
+                -1px -1px 6px 0px rgba(54, 69, 75, 1);
+        }
+    </style>
+    <!-- Q # 1 -->
+    <!-- Ek button banao jo click hone par ek paragraph ka text change kare. -->
+    <p id="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt reiciendis iure odit. Fuga, dolorem
+        ea natus laudantium repudiandae ipsa? Quasi, eligendi aspernatur? Tenetur cum ut in quo ducimus commodi
+        consequuntur.</p>
+    <div> <button onclick="changetext()">Change the Text</button></div>
+    <script>
+        function changetext() {
+            document.getElementById("para").textContent = "You Clicked the Button"
+        }
+    </script>
+    <!-- Ek button banao jo click hone par alert box show kare.  -->
+    <div> <button onclick="showalert()">Show Alert</button></div>
+    <script>
+        function showalert() {
+            alert("You Clicked the Button")
+        }
+    </script>
+    <!-- Random number Generator -->
+    <div>
+        <button id="btn2" onclick="random()">Generate Random Number</button>
+    </div>
+    <div class="txt">
+        <h1 id="text"></h1>
+    </div>
+    <script>
+        function random() {
+            let ran = Math.floor(1 + Math.random() * 100)
+            document.getElementById("text").textContent = ran
+        }
+    </script>
+</body>
+
+</html>

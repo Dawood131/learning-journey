@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(download.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.login-container {
+    background-color: transparent;
+    border: 2px solid rgb(3, 3, 3);
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.a {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.input-group {
+    margin: 25px;
+}
+
+.input-group input {
+    width: 80%;
+    padding: 15px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(15, 12, 12);
+    font-size: medium;
+}
+
+::placeholder {
+    color: #161313;
+    font-weight: bold;
+}
+
+.login {
+    padding: 10px;
+    width: 70%;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+}
+.login a{
+    color: black;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+}
+.remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    color: rgb(253, 251, 251);
+}
+.remember input{
+    position: relative;
+    right: 16px;
+}
+.remember a{
+    color: black;
+    text-decoration: none;
+}
+.d{
+    margin-top: 20px;
+   color: #994ee0;
+   font-weight: bold;
+}
+.d a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #091dd8;
+}
+@media screen and (max-width: 700px) {
+    .login-container{
+        margin-top: 70px;
+    }
+    body {
+        background-image: url(download.jpeg);
+        background-repeat: no-repeat;
+        background-size: 4000px;
+    }
+}

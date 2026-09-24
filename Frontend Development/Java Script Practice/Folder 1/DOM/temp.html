@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .container {
+            margin: 16px auto;
+            border: 1px solid;
+            border-radius: 5px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.377);
+            height: 250px;
+            row-gap: 5px;
+        }
+
+        .heading {
+            margin-top: 8px;
+            font-size: medium;
+            font-weight: 500;
+            color: rgba(25, 73, 116, 0.459);
+        }
+
+        input {
+            padding: 5px;
+            font-weight: bold;
+            margin-top: 8px;
+        }
+
+        label {
+            margin-top: 8px;
+            font-size: large;
+            font-weight: 500;
+        }
+
+        button {
+            background-color: rgba(74, 150, 163, 0.548);
+            border: none;
+            padding: 8px;
+            font-weight: bold;
+            border-radius: 8px;
+            width: 70px;
+            margin-top: 8px;
+        }
+
+        button:hover {
+            background-color: rgba(74, 150, 163, 0.959);
+            transition: 0.3s;
+        }
+
+        button:active {
+            background-color: rgba(74, 150, 163, 0.062);
+        }
+
+        p {
+            margin-top: 10px;
+            font-weight: bolder;
+            font-size: large;
+        }
+    </style>
+    <div class="container">
+        <div class="heading">
+            <h2>Temperature Converter</h2>
+        </div>
+        <div class="input">
+            <input type="number" name="number" id="number" value="0">
+        </div>
+        <div>
+            <input type="radio" name="tem" id="cel">
+            <label for="cel">Celsius → Fahrenheit</label>
+        </div>
+        <div>
+            <input type="radio" name="tem" id="fah">
+            <label for="fah">Fahrenheit → Celsius</label>
+        </div>
+        <div>
+            <button class="btn" type="submit" onclick="Converter()">Submit</button>
+        </div>
+        <p id="result"></p>
+    </div>
+    <script>
+        let number = document.getElementById("number");
+        let cel = document.getElementById("cel");
+        let fah = document.getElementById("fah");
+        let result = document.getElementById("result");
+        let temp;
+        function Converter() {
+            if (cel.checked) {
+                temp = Number(number.value)
+                temp = temp * (9 / 5) + 32;
+                result.textContent = temp.toFixed(2) + "°F"
+            }
+            else if (fah.checked) {
+                temp = Number(number.value)
+                temp = (temp - 32) * 5 / 9;
+                result.textContent = temp.toFixed(2) + "°C"
+            }
+            else {
+                result.textContent = "Select the Unit"
+            }
+        }
+
+
+    </script>
+</body </html>

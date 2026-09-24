@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Navbar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f9;
+    }
+
+    nav {
+      background: #1e293b;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 30px;
+      position: relative;
+    }
+
+    /* Logo */
+    nav h2 {
+      font-size: 22px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    /* Menu */
+    nav ul {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #38bdf8;
+    }
+
+    /* Hamburger */
+    #btn {
+      display: none;
+      font-size: 28px;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* Mobile Styles */
+    @media(max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        background: #0f172a;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 220px;
+        padding: 20px;
+        gap: 20px;
+        display: none;
+        border-radius: 8px 0 0 8px;
+        box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+      }
+
+      nav ul.active {
+        display: flex;
+        animation: slideIn 0.3s ease;
+      }
+
+      #btn {
+        display: block;
+      }
+    }
+
+    /* Slide animation */
+    @keyframes slideIn {
+      from {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <h2>Dawood Butt</h2>
+    <ul id="list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <button id="btn">☰</button>
+  </nav>
+
+  <script>
+      let list = document.getElementById("list")
+      document.getElementById("btn").addEventListener("click", ()=> {
+        list.classList.toggle("active");
+      })
+  </script>
+</body>
+
+</html>

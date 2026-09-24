@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+/* header nav */
+
+nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav .left {
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    cursor: pointer;
+    padding: 10px;
+}
+
+nav button {
+    margin: 20px 10px;
+    height: 40px;
+    width: 100px;
+    background: transparent;
+}
+
+nav .btn {
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 3px;
+    width: 110px;
+}
+
+nav .lang {
+    border: none;
+    font-size: medium;
+    font-weight: 300;
+}
+
+nav li:hover {
+    color: rgb(163, 147, 147);
+    transition: 0.4s;
+}
+
+nav button:hover {
+    color: rgb(163, 147, 147);
+    transition: 0.4s;
+}
+
+/* main .one */
+main .one {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+main h1 {
+    display: inline-block;
+    padding: 15px;
+    font-size: 2.6em;
+    font-weight: 400;
+}
+
+main span {
+    font-weight: bolder;
+}
+
+main .text2 {
+    font-size: larger;
+    font-weight: 400;
+}
+
+main .mac button {
+    margin: 33px;
+    height: 40px;
+    width: 260px;
+    background-color: rgb(77, 178, 218);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+main .mac button:hover {
+    background-color: rgb(67, 153, 187);
+    transition: 0.3s;
+}
+
+/* main .ue */
+main .ue {
+    display: flex;
+    padding: 7vw
+}
+
+main .ue p {
+    align-self: center;
+    padding: 10px;
+    font-size: small;
+}
+
+main .dn {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+main .two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80vw;
+    margin: auto;
+}
+
+main .two .box {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    width: 300px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+main .two .box h5 {
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 46px;
+}
+
+main .two .box .eng {
+    margin-bottom: 40px;
+}
+
+main .two .box button {
+    background-color: rgb(42, 170, 28);
+    color: white;
+    border-radius: 6px;
+    padding: 6px;
+    font-weight: bolder;
+    border: none;
+    width: 130px;
+    cursor: pointer;
+}
+
+main .two .box .box-1 {
+    font-weight: 300;
+    font-size: small;
+    margin: auto 0px;
+}
+
+main .two .box h6 {
+    font-size: .6em;
+    font-weight: 100;
+    margin: 10px;
+}
+
+main .two .box p {
+    font-size: .6em;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+/* main .three */
+main .three {
+    height: 130vh;
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #f9f9f9;
+}
+
+main .three .left h4 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 60px;
+}
+
+main .three .left p {
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .three .left .pp {
+    font-weight: 400;
+    text-align: center;
+    margin: 0 20px;
+}
+
+main .three .right {
+    background-color: white;
+    height: 40vh;
+    border-radius: 15px;
+}
+
+main .three .right h5 {
+    color: rgb(77, 178, 218);
+    font-size: larger;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+main .three .right label {
+    color: black;
+    display: block;
+    font-size: smaller;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main .three .right input {
+    margin: 6px 33px 0 33px;
+    height: 50px;
+    width: 260px;
+    border: 1px solid rgb(180, 170, 170);
+}
+
+main .three button {
+    display: block;
+    margin: 6px 33px 0 33px;
+    height: 50px;
+    width: 260px;
+    background-color: rgb(47, 174, 224);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 2px 5px 5px rgb(100, 136, 150);
+}
+
+main .three button:hover {
+    background-color: rgb(67, 153, 187);
+    transition: 0.3s;
+}
+
+main .three .center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+main .three .center h6 {
+    font-size: 1.3em;
+    font-weight: 400;
+    padding: 8px 0;
+}
+
+main .three .center p {
+    margin-bottom: 50px;
+}
+
+main .three .center .ex {
+    padding: 10px 0;
+}
+
+main .three .center span {
+    color: rgb(43, 136, 223);
+    font-weight: 400;
+}
+
+footer {
+    background-color: #f9f9f9;
+}
+
+footer .up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 40px 20px;
+}
+
+footer .up ul {
+    list-style: none;
+}
+
+footer .up li {
+    font-size: small;
+    padding: 3px;
+}
+
+footer .up h5 {
+    margin: 15px 0;
+    font-size: medium;
+}
+
+footer .up .form {
+    display: flex;
+    flex-direction: column;
+    width: 222px;
+}
+
+footer .up .form pre {
+    font-size: small;
+    padding: 20px 0 25px;
+}
+
+footer .up input {
+    height: 40px;
+    width: 190px;
+    border: 1px solid rgb(180, 170, 170);
+    border-radius: 7px;
+    padding: 8px;
+}
+
+footer .up button {
+    margin-top: 10px;
+    display: block;
+    height: 40px;
+    width: 190px;
+    background-color: rgb(47, 174, 224);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+footer .up button:hover {
+    background-color: rgb(67, 153, 187);
+    transition: 0.3s;
+}
+
+footer .down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+footer .foot {
+    text-align: center;
+    padding: 40px;
+}
+
+/* For Large Tablets / Small Desktops */
+@media screen and (max-width: 1200px) {
+    main .two {
+        width: 90vw;
+    }
+
+    main .three {
+        height: auto;
+        padding: 30px 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+    }
+}
+
+/* For Tablets */
+@media screen and (max-width: 992px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+    }
+
+    nav ul {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    
+    main .ue {
+        flex-direction: column;
+        padding: 5vw;
+    }
+
+    main .two {
+        gap: 15px;
+    }
+
+    footer .up {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+}
+
+/* For Large Phones */
+@media screen and (max-width: 768px) {
+    nav .btn {
+        width: 100px;
+        font-size: small;
+    }
+
+    main h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    main .one .text1 .img{
+        padding: 37%;
+    }
+
+    main .text2 {
+        font-size: medium;
+        text-align: center;
+    }
+
+    main .mac button {
+        width: 220px;
+        margin: 20px;
+    }
+
+    main .two .box {
+        width: 90%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    main .three {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    main .three .left,
+    main .three .right,
+    main .three .center {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .up,
+    footer .down {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .up .form,
+    footer .up input,
+    footer .up button {
+        width: 100%;
+    }
+}
+
+/* For Small Phones */
+@media screen and (max-width: 576px) {
+    *{
+        max-width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+
+    main .mac button {
+        margin: auto;
+        width: 100%;
+    }
+
+    main .three .right input,
+    main .three button {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    footer .up {
+        margin: 20px 10px;
+    }
+
+    footer .foot {
+        padding: 20px;
+        font-size: smaller;
+    }
+}

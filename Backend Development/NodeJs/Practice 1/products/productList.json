@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Classic Black T-Shirt",
+    "category": "T-Shirts",
+    "price": 2499,
+    "discount": 10,
+    "rating": 4.5,
+    "stock": 25,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab",
+    "description": "Premium cotton black t-shirt with a comfortable regular fit."
+  },
+  {
+    "id": 2,
+    "name": "Oversized White T-Shirt",
+    "category": "T-Shirts",
+    "price": 2799,
+    "discount": 15,
+    "rating": 4.7,
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b",
+    "description": "Minimal oversized white t-shirt made from soft premium cotton."
+  },
+  {
+    "id": 3,
+    "name": "Slim Fit Blue Jeans",
+    "category": "Jeans",
+    "price": 4999,
+    "discount": 20,
+    "rating": 4.6,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d",
+    "description": "Modern slim fit blue jeans designed for everyday comfort."
+  },
+  {
+    "id": 4,
+    "name": "Cargo Pants",
+    "category": "Pants",
+    "price": 4499,
+    "discount": 10,
+    "rating": 4.4,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f",
+    "description": "Stylish cargo pants with multiple utility pockets."
+  },
+  {
+    "id": 5,
+    "name": "Premium Black Hoodie",
+    "category": "Hoodies",
+    "price": 5499,
+    "discount": 15,
+    "rating": 4.8,
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7",
+    "description": "Warm premium hoodie with a soft fleece interior."
+  },
+  {
+    "id": 6,
+    "name": "Classic Denim Jacket",
+    "category": "Jackets",
+    "price": 6999,
+    "discount": 20,
+    "rating": 4.7,
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5",
+    "description": "Classic denim jacket with a timeless casual design."
+  },
+  {
+    "id": 7,
+    "name": "White Running Shoes",
+    "category": "Shoes",
+    "price": 7999,
+    "discount": 25,
+    "rating": 4.6,
+    "stock": 14,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff",
+    "description": "Lightweight running shoes designed for everyday movement."
+  },
+  {
+    "id": 8,
+    "name": "Black Casual Sneakers",
+    "category": "Shoes",
+    "price": 6499,
+    "discount": 10,
+    "rating": 4.5,
+    "stock": 22,
+    "image": "https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3",
+    "description": "Minimal black sneakers suitable for casual everyday outfits."
+  },
+  {
+    "id": 9,
+    "name": "Leather Backpack",
+    "category": "Bags",
+    "price": 5999,
+    "discount": 15,
+    "rating": 4.8,
+    "stock": 8,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+    "description": "Premium leather backpack with multiple storage compartments."
+  },
+  {
+    "id": 10,
+    "name": "Minimalist Wrist Watch",
+    "category": "Accessories",
+    "price": 8999,
+    "discount": 20,
+    "rating": 4.7,
+    "stock": 7,
+    "image": "https://images.unsplash.com/photo-1524805444758-089113d48a6d",
+    "description": "Elegant minimalist wrist watch with a premium metal finish."
+  },
+  {
+    "id": 11,
+    "name": "Classic Sunglasses",
+    "category": "Accessories",
+    "price": 2999,
+    "discount": 10,
+    "rating": 4.4,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083",
+    "description": "Classic sunglasses with a stylish frame and UV protection."
+  },
+  {
+    "id": 12,
+    "name": "Brown Leather Belt",
+    "category": "Accessories",
+    "price": 1999,
+    "discount": 5,
+    "rating": 4.3,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1624222247344-550fb60583dc",
+    "description": "Genuine leather belt with a classic metal buckle."
+  },
+  {
+    "id": 13,
+    "name": "Beige Casual Shirt",
+    "category": "Shirts",
+    "price": 3299,
+    "discount": 15,
+    "rating": 4.6,
+    "stock": 19,
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf",
+    "description": "Relaxed beige shirt perfect for casual and smart-casual looks."
+  },
+  {
+    "id": 14,
+    "name": "Green Polo Shirt",
+    "category": "Shirts",
+    "price": 2999,
+    "discount": 10,
+    "rating": 4.5,
+    "stock": 24,
+    "image": "https://images.unsplash.com/photo-1625910513413-5fc45a5a0c3b",
+    "description": "Comfortable cotton polo shirt with a clean classic design."
+  },
+  {
+    "id": 15,
+    "name": "Grey Sweatpants",
+    "category": "Pants",
+    "price": 3799,
+    "discount": 15,
+    "rating": 4.6,
+    "stock": 16,
+    "image": "https://images.unsplash.com/photo-1552902865-b72c031ac5ea",
+    "description": "Soft grey sweatpants designed for comfort and everyday wear."
+  },
+  {
+    "id": 16,
+    "name": "Winter Puffer Jacket",
+    "category": "Jackets",
+    "price": 8999,
+    "discount": 25,
+    "rating": 4.8,
+    "stock": 9,
+    "image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f",
+    "description": "Warm puffer jacket designed for cold weather and outdoor use."
+  },
+  {
+    "id": 17,
+    "name": "Canvas Sneakers",
+    "category": "Shoes",
+    "price": 4999,
+    "discount": 10,
+    "rating": 4.4,
+    "stock": 27,
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77",
+    "description": "Lightweight canvas sneakers with a clean everyday style."
+  },
+  {
+    "id": 18,
+    "name": "Cotton Summer Shorts",
+    "category": "Shorts",
+    "price": 2499,
+    "discount": 15,
+    "rating": 4.5,
+    "stock": 21,
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b",
+    "description": "Breathable cotton shorts designed for warm summer days."
+  },
+  {
+    "id": 19,
+    "name": "Premium Knit Sweater",
+    "category": "Sweaters",
+    "price": 5999,
+    "discount": 20,
+    "rating": 4.7,
+    "stock": 11,
+    "image": "https://images.unsplash.com/photo-1610652492500-ded49ceeb378",
+    "description": "Premium knitted sweater with a soft and comfortable texture."
+  },
+  {
+    "id": 20,
+    "name": "Classic Baseball Cap",
+    "category": "Accessories",
+    "price": 1799,
+    "discount": 10,
+    "rating": 4.3,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b",
+    "description": "Classic cotton baseball cap with an adjustable back strap."
+  }
+]

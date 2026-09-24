@@ -1,0 +1,1 @@
+Node.js is a free, open-source JavaScript runtime environment that lets you run JavaScript outside of a web browser, primarily on servers. It is built on Google's V8 JavaScript engine, the same engine used by the Chrome browser.

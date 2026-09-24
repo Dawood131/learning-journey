@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(31, 30, 30);
+}
+
+:root {
+    --color: rgb(255, 255, 255);
+    --sec-color: rgb(137, 231, 13);
+}
+/* header  */
+.upnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.navleft img {
+    padding-left: 50px;
+}
+
+.navright ul {
+    color: var(--color);
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 10px 20px;
+}
+
+.navright ul li {
+    font-size: small;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navright,
+.navcenter ul li:hover {
+    color: rgb(236, 236, 228);
+}
+
+.downnav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navleft2 {
+    padding: 10px 40px;
+}
+
+.navcenter ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    color: var(--color);
+}
+
+.navcenter ul li {
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navright2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px ;
+    cursor: pointer;
+}
+.navright2 input{
+    background-color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 40px;
+    color: var(--color);
+}
+/* section 1*/
+
+.sec1 iframe{
+    width: 100%;
+}
+.sec1 h5{
+    text-align: center;
+    margin-top: 36px;
+    color: var(--sec-color);
+    font-size: medium;
+    font-weight: bold;
+}
+.sec1 h1{
+    font-size: 3em;
+    font-weight: 1000;
+    text-align: center;
+     color: var(--sec-color);
+}
+.sec1 .btn{
+    text-align: center;
+}
+.sec1 button{
+    background-color: white;
+    height: 40px;
+    width: 90px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: medium;
+}
+.sec1 button:hover{
+    background-color: rgb(151, 146, 146);
+}
+/* section 2 */

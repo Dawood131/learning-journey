@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Increament/Decreament</title>
+</head>
+
+<body>
+    <style>
+        label {
+            display: flex;
+            justify-content: center;
+            font-size: 5em;
+        }
+
+        div {
+            margin-top: 60px;
+        }
+
+        #btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        button {
+            position: relative;
+            padding: 10px 20px;
+            border-radius: 7px;
+            border: 1px solid rgb(61, 106, 255);
+            font-size: 14px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 2px;
+            background: transparent;
+            color: #196477;
+            overflow: hidden;
+            box-shadow: 0 0 0 0 transparent;
+            -webkit-transition: all 0.2s ease-in;
+            -moz-transition: all 0.2s ease-in;
+            transition: all 0.2s ease-in;
+        }
+
+        button:hover {
+            background: rgb(61, 106, 255);
+            box-shadow: 0 0 10px 5px rgba(0, 142, 236, 0.815);
+            -webkit-transition: all 0.2s ease-out;
+            -moz-transition: all 0.2s ease-out;
+            transition: all 0.2s ease-out;
+            color: #fff;
+        }
+
+        button:hover::before {
+            -webkit-animation: sh02 0.5s 0s linear;
+            -moz-animation: sh02 0.5s 0s linear;
+            animation: sh02 0.5s 0s linear;
+        }
+
+        button::before {
+            content: '';
+            display: block;
+            width: 0px;
+            height: 86%;
+            position: absolute;
+            top: 7%;
+            left: 0%;
+            opacity: 0;
+            background: #fff;
+            box-shadow: 0 0 50px 30px #fff;
+            -webkit-transform: skewX(-20deg);
+            -moz-transform: skewX(-20deg);
+            -ms-transform: skewX(-20deg);
+            -o-transform: skewX(-20deg);
+            transform: skewX(-20deg);
+        }
+
+        @keyframes sh02 {
+            from {
+                opacity: 0;
+                left: 0%;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            to {
+                opacity: 0;
+                left: 100%;
+            }
+        }
+
+        button:active {
+            box-shadow: 0 0 0 0 transparent;
+            -webkit-transition: box-shadow 0.2s ease-in;
+            -moz-transition: box-shadow 0.2s ease-in;
+            transition: box-shadow 0.2s ease-in;
+        }
+    </style>
+    <div>
+        <label for="btn" id="lab">0</label>
+        <div id="btn">
+            <button onclick="decreament()">Decreament</button>
+            <button onclick="reset()">Reset</button>
+            <button onclick="increment()">Increament</button>
+        </div>
+        <script>
+            let count = 0;
+            function increment() {
+                count++;
+                document.getElementById("lab").innerHTML = count;
+            }
+            function decreament() {
+                count--;
+                document.getElementById("lab").innerHTML = count;
+            }
+            function reset() {
+                count = 0;
+                document.getElementById("lab").innerHTML = count;
+            }
+        </script>
+</body>
+
+</html>

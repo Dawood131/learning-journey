@@ -1,0 +1,154 @@
+    /* Form.css */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #84fab0, #8fd3f4);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 20px;
+      justify-content: center;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      animation: fadeInDown 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      color: #2c3e50;
+    }
+
+    header h2 {
+      font-size: 1.8em;
+      color: #34495e;
+    }
+
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      margin: auto;
+      animation: slideUp 1s ease;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      color: #2c3e50;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    input:focus, select:focus {
+      border-color: #8fd3f4;
+      outline: none;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+
+
+    button {
+      background-color: #00c9a7;
+      color: #fff;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-right: 10px;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #00b29b;
+      transform: scale(1.05);
+    }
+
+    details summary {
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+    details {
+      background: #cee4e2;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      transition: background-color 0.3s ease;
+    }
+    label{
+      display: inline-flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 5px;
+    margin-bottom: 10px;
+    }  
+    details:hover {
+      background: #b0d6d3;
+    }
+    details p {
+      margin-top: 10px;
+      color: #2c3e50;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #f8f8f8;
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      animation: fadeIn 2s ease-in;
+    }
+
+    footer a {
+      color: #2c3e50;
+      margin: 0 10px;
+      font-size: 18px;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Cotton T-Shirt",
+    "price": 1200,
+    "stock": 25,
+    "category": "Clothing"
+  },
+  {
+    "name": "Wireless Earbuds",
+    "price": 4500,
+    "stock": 10,
+    "category": "Electronics"
+  },
+  {
+    "name": "Denim Jacket",
+    "price": 3200,
+    "stock": 8,
+    "category": "Clothing"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 2800,
+    "stock": 15,
+    "category": "Electronics"
+  },
+  {
+    "name": "Potato Chips",
+    "price": 150,
+    "stock": 100,
+    "category": "Food"
+  },
+  {
+    "name": "Leather Wallet",
+    "price": 1800,
+    "stock": 0,
+    "category": "Other"
+  }
+]

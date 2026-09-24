@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 223, 223);
+    font-family: "Nunito", sans-serif;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.container {
+    margin: 30px auto;
+    background-color: rgb(252, 249, 243);
+    width: 333px;
+    height: 80vh;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+img {
+    width: 318px;
+    border-radius: 8px;
+
+}
+
+.img {
+    padding: 6px;
+}
+
+.a {
+    padding: 2px 6px;
+    color: rgb(114, 91, 91);
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 21px;
+    font-size: .60em;
+    font-weight: 800;
+    margin: 6px 20px;
+}
+.b {
+    padding: 2px 6px;
+    color: rgb(114, 91, 91);
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 21px;
+    font-size: .60em;
+    font-weight: 800;
+}
+
+.text h2 {
+    margin: 6px;
+    margin: 10px 15px;
+
+}
+
+.text p {
+    margin: 6px;
+    color: gray;
+    margin: 0 15px;
+}
+.btn button{
+    background-color: rgb(212, 212, 236);
+    color: blue;
+    font-weight: bold;
+    margin:  40px 110px ;
+    border: none;
+    border-radius: 40px ;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(143, 143, 175);
+    color: white;
+}
+button:active{
+    background-color: rgb(105, 105, 117);
+}

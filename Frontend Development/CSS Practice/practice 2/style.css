@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(rgb(18, 46, 121), aqua);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-color: rgb(87, 94, 104);
+    color: beige;
+    cursor: pointer;
+    padding: 10px;
+    height: 7vh;
+}
+main{
+    height: 85vh;
+}
+
+h2 {
+    float: left;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+li {
+    padding-top: 6px;
+    font: 1em sans-serif;
+    transition: border 1s;
+}
+
+li:hover {
+    color: rgb(139, 139, 118);
+    border-bottom: 1px solid rgb(204, 212, 212);
+
+}
+
+h1 {
+    color: beige;
+    text-shadow: 6px 4px 9px black;
+
+}
+
+footer {
+    background-color: rgb(87, 94, 104);
+    height: 4vh;
+    text-align: center;
+    padding: 3px;
+
+}
